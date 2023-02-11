@@ -7,6 +7,10 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <meta name="description" content="get the best mediterreanean foods in europe"/>
+    <meta name="og:title" content="Little Lemon Restautrant"/>
+    <meta name="og:description" content="We are a family owned mediterreanean restaurant, focused on traditional recipes served with a modren twist."/>
+    <meta name="og:image" content="little-lemon.jpg"/>
     <App />
   </React.StrictMode>
 );
