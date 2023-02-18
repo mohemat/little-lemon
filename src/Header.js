@@ -1,10 +1,13 @@
 import React from 'react'
+import './Header.css';
+import logo from './icons_assets/Logo.svg'
+
 
 function Header() {
   return (
     <header>
         <nav>
-          <img src="#" alt="logo"/>
+          <img src={logo} alt="logo"/>
         <ul>
     <li><a href="/home">Home</a></li>        
     <li><a href="/about">About Us</a></li>

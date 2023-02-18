@@ -1,0 +1,41 @@
+.highlight-sec{
+margin: 0 auto;
+padding-top: 4rem;
+width: 55%;
+}
+.top-d{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu{
+    background-color: #F4CE14;
+    padding: 0.5rem 1rem;
+    border-radius: 0.7rem;
+    border-width: 0;
+    font-weight: bold;
+}
+.menu:hover{
+ cursor: pointer;
+}
+
+.food-div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 480px) {
+    .highlight-sec{
+        width: 90%;
+        margin-left: 1.5rem;
+padding-top: 2rem;        }
+        .food-div{
+            display: block;
+        }
+  }

@@ -1,0 +1,46 @@
+.food-card {
+    width: 30%;
+    background-color: #EDEFEE;
+    overflow:hidden;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    padding-bottom: 1rem;
+}
+
+.food-titles{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -0.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.food-price {
+    color: #EE9972;
+}
+
+.food-card > p {
+    margin: 1rem;
+    margin-bottom: 2rem;
+}
+.food-card > a {
+    margin: 1rem;
+}
+
+
+.food-pic{
+    width: 320px;
+    height: 200px;
+}
+
+@media screen and (max-width: 800px) {
+    .food-card {
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 3rem;
+    }
+    .food-pic{
+        width: 450px;
+        height: 300px;
+    }
+  }
