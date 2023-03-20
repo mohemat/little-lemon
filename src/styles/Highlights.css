@@ -9,17 +9,24 @@ width: 55%;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+    margin: 1rem 0rem;
 }
 
 .menu{
     background-color: #F4CE14;
-    padding: 0.5rem 1rem;
+    padding: 1rem 1.5rem;
     border-radius: 0.7rem;
     border-width: 0;
-    font-weight: bold;
+    font-weight: 800;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: background-color, box-shadow 0.5s;
+
 }
 .menu:hover{
  cursor: pointer;
+ background-color: #EE9972;
+ box-shadow: none;
+
 }
 
 .food-div {
@@ -30,7 +37,7 @@ width: 55%;
     justify-content: space-between;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 800px) {
     .highlight-sec{
         width: 90%;
         margin-left: 1.5rem;

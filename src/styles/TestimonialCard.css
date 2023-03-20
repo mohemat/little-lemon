@@ -1,0 +1,31 @@
+.name-text{
+    display: inline;
+    line-height: 2.3;
+    vertical-align: top; 
+    padding-left: 1rem;
+}
+
+.rating-text{
+    /* padding-left: 1rem; */
+
+}
+
+.user-image{
+    width: 50px;
+    /* padding-left: 1rem; */
+}
+
+.testi-div {
+    width: 25%;
+    background-color: #EDEFEE;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+@media screen and (max-width: 800px) {
+    .testi-div {
+        width: 100%;
+        margin-bottom: 3rem;
+        
+    }
+  }

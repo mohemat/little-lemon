@@ -1,0 +1,42 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #495E57;
+    height: 30vh;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+
+}
+.footer-image {
+    border-radius: 1rem;
+}
+
+.foot-side {
+    display: flex;
+    justify-content: space-between;
+    width: 50vh;
+}
+
+.footer ul {
+    list-style: none;
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
+  }
+
+.footer li {
+    padding: 0.2rem;
+}
+
+
+@media screen and (max-width: 800px) {
+    .footer section{
+        display: none;
+    }
+
+  }

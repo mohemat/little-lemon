@@ -18,6 +18,11 @@ a {
     text-decoration: none;
     color: black;
     font-weight: 500;
+    transition: color 0.4s;
+}
+
+a:hover{
+    color: #F4CE14;
 }
 
 @media screen and (max-width: 480px) {

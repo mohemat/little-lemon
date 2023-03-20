@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter as Router } from "react-router-dom";
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -11,7 +13,9 @@ root.render(
     <meta name="og:title" content="Little Lemon Restautrant"/>
     <meta name="og:description" content="We are a family owned mediterreanean restaurant, focused on traditional recipes served with a modren twist."/>
     <meta name="og:image" content="little-lemon.jpg"/>
+    <Router>
     <App />
+    </Router>
   </React.StrictMode>
 );
 

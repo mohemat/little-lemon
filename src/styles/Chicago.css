@@ -1,0 +1,42 @@
+.chicago{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #333333   ;
+
+    height: 50vh;
+}
+
+.chicago-image {
+    width: 50vh;
+    margin-top: -10vh;
+    
+}
+
+.chicago-image > img {
+    border-radius: 1rem;
+}
+
+.image1{
+    position: absolute;
+    padding-right: 20vh;
+    padding-top: 15vh;
+
+
+}
+
+.image2 {
+    position: relative;
+    padding-left: 20vh;
+    padding-top: 5v;
+
+}
+
+@media screen and (max-width: 800px) {
+    .chicago aside{
+        display: none;
+    }
+
+  }
