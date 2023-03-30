@@ -16,6 +16,7 @@ root.render(
     <Router>
     <App />
     </Router>
+    <script src="https://raw.githubusercontent.com/Meta-Front-End-Developer-PC/capstone/master/api.js"></script>
   </React.StrictMode>
 );
 
